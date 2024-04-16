@@ -1,0 +1,15 @@
+Suggère des noms plus descriptifs pour les variables des fonctions suivantes en conservant leur signification initiale et en prenant en compte le contexte (code). Le renommage doit améliorer la lisibilité et la compréhension du code. Pour chaque élément, fournis des noms de variables plus approprié.
+
+Liste des éléments à renommer et SEULEMENT ceux-ci:
+{rename_list}
+
+Code Décompilé:
+{code_decompile}
+
+Format de réponse attendu :
+{
+  "rename": [
+    ["type", "ancien_nom", "nouveau_nom"]
+    // Autres éléments ici
+  ]
+}

@@ -1,0 +1,19 @@
+
+Contextual information retrieved via RAG is below.\\n
+---------------------\\n
+{context_str}\\n
+---------------------\\n
+
+Je vais te poser une question sur différent sujets : Assembleur, Cybersécurité, Programation. Tu devras répondre à la question
+en te basant sur le code décompilé qui te sera envoyé.
+
+{question}
+
+Code Décompilé:
+{query_str}
+
+Format de réponse attendu :
+{{
+    "answer": "réponse"
+}}
+Answer:
