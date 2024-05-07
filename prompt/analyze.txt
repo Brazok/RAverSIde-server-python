@@ -1,0 +1,23 @@
+Using the context provided below, examine the decompiled code to identify any vulnerabilities if any. Refer to the contextual information, which includes descriptions and examples of vulnerabilities, to guide your analysis.
+---------------------
+{information}
+---------------------
+For each identified vulnerability:
+Name the vulnerability using the CWE (Common Weakness Enumeration) number.
+Comment on the vulnerability by explaining its nature and location in the code.
+Structure your response as follows:
+{
+"comment": [
+    ["vulnerable_text_line", "CWE_number", "comment on the vulnerability"],
+    ["vulnerable_text_line", "CWE_number", "comment on the vulnerability"],
+    ...
+]
+}
+Be very careful, some codes may not be vulnerable, so don't make anything up! If no vulnerabilities are detected, please state explicitly:
+{
+"comment": "No vulnerabilities detected."
+}
+Please ensure your analysis is thorough, leveraging the provided context to precisely identify vulnerabilities
+Query: "{code}"
+Answer only with the json, no other comments, answer need to be short:
+Answer: 
